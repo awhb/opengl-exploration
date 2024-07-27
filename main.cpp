@@ -26,7 +26,7 @@ static ShaderProgramSource ParseShader(const std::string& filepath)
     enum class ShaderType {
         NONE = -1, VERTEX = 0, FRAGMENT = 1
     };
-test
+
     std::string line;
     std::stringstream ss[2];
     ShaderType type = ShaderType::NONE;
